@@ -4,6 +4,9 @@ package Behavioural.Command;
 public class Light {
 	private boolean isOn = false;
 	
+	public boolean isOn() {
+		return isOn;
+	}
 	// Maintain state
 	public void toggle() {
 		if(isOn) {
